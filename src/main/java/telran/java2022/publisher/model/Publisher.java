@@ -29,4 +29,9 @@ public class Publisher implements Serializable {
 	public Publisher(String name) {
 		this.name = name;
 	}
+
+	@Override
+	public String toString() {
+		return name;
+	}
 }
